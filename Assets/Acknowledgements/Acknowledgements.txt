@@ -1,0 +1,4 @@
+A* Pathfinding by Aron Granberg
+http://www.arongranberg.com/unity/a-pathfinding/
+http://creativecommons.org/licenses/by-nc/3.0/
+

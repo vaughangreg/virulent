@@ -1,0 +1,426 @@
+<!--
+System voice values can be found in the Speech Preferences panel.
+
+See <http://developer.apple.com/library/mac/#documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/FineTuning/FineTuning.html> for information on fine-tuning text.
+
+FORMAT:
+
+<unit name="UnitName" [voice="System Voice"]>
+	<statement type="GroupName">
+		<say value="A message." />
+		…
+	</statement>
+	…
+</unit>
+-->
+<units>
+	<!-- Level -->
+	<unit name="EndoplasmicReticulum" voice="Ralph">
+		<statement type="Selection">
+			<say value="Endoplasmic reticulum." />
+			<say value="I provide structure." />
+			<say value="Holding the walls and roof in place." />
+		</statement>
+	</unit>
+	<unit name="Cell" voice="Ralph">
+		<statement type="Selection">
+			<say value="Cell." />
+			<say value="Virions scare me." />
+			<say value="Together, we make great things happen." />
+		</statement>
+	</unit>
+	<unit name="Ribosome" voice="Bruce">
+		<statement type="Selection">
+			<say value="Ribosome." />
+			<say value="I'm ready to translate." />
+			<say value="Translating with confidence." />	
+		</statement>
+	</unit>
+	<unit name="Mitochondria" voice="Albert">
+		<statement type="Selection">
+			<say value="Mitochondrion." />
+			<say value="I provide energy to all." />
+			<say value="Mitochondria are not midi-chlorians." />
+		</statement>
+	</unit>
+	<unit name="Buttons" voice="Vicki">
+		<statement type="Credits">
+			<say value="About virulent." />
+			<say value="Everyone who worked on the game." />
+			<say value="And thank you for playing!" />
+		</statement>
+		<statement type="Level">
+			<say value="Choose a level to replay." />
+			<say value="You can only play levels you've reached." />
+			<say value="Good luck!" />
+		</statement>
+		<statement type="Start">
+			<say value="Tap objects for more information." />
+			<say value="Start infecting cells." />
+			<say value="Spread the infection." />
+		</statement>
+	</unit>
+	<unit name="Golgi" voice="Bruce">
+	    <statement type="Selection">
+			<say value="Golgi." />
+			<say value="Feed me G proteins." />
+			<say value="Please excuse my vesicles." />
+	    </statement>
+	</unit>
+	<unit name="Cytoskeleton" voice="Junior">
+		<statement type="Selection">
+			<say value="Cytoskeleton." />
+			<say value="I support the cell." />
+			<say value="There's nothing in my closet." />
+		</statement>
+	</unit>
+
+	
+	<!-- Cell side -->
+	<unit name="Antibody" voice="Fred">
+		<statement type="Selection">
+			<say value="Free Antibody." />
+			<say value="I grab onto virions." />
+			<say value="Are you a virion?" />
+		</statement>
+		<statement type="Attachment">
+			<say value="Veereon detected!" />
+		</statement>
+	</unit>
+	<unit name="Monomer" voice="Bruce">
+		<statement type="Selection">
+			<say value="Bound Antibody." />
+			<say value="I'm waiting for virions." />
+			<say value="Bound Antibody want virions!" />
+		</statement>
+	</unit>
+	<unit name="B-Cell" voice="Ralph">
+		<statement type="Selection">
+			<say value="B cell." />
+			<say value="I have bound antibodies." />
+			<say value="Sometimes I make free antibodies when I'm lonely" />
+		</statement>
+	</unit>
+	<unit name="Protein-Receptor" voice="Junior">
+		<statement type="Selection">
+			<say value="Protein receptor." />
+			<say value="Give me something to pull inside." />
+			<say value="Are you food or a virion? I guess I don't care." />
+		</statement>
+	</unit>
+	<unit name="Proteasome" voice="Alex">
+		<statement type="Selection">
+			<say value="Proteasome." />
+			<say value="I love to eat proteins." />
+			<say value="N proteins taste the best." />
+		</statement>
+	</unit>
+	<unit name="Slicer" voice="Bruce">
+		<statement type="Selection">
+			<say value="Slicer." />
+			<say value="Find me some RNA." />
+			<say value="I break up nuclaic acids for fun." />
+		</statement>
+	</unit>
+	<unit name="PRR" voice="Junior">
+		<statement type="Selection">
+			<say value="Pattern Recognition Receptor." />
+			<say value="I am going to tell the Nucleus about you." />
+			<say value="I need an M Protein, like right now." />
+		</statement>
+	</unit>
+	<unit name="Executioner" voice="Ralph">
+		<statement type="Selection">
+			<say value="Executioner Enzyme." />
+			<say value="I will destroy the cell." />
+			<say value="My friends call me Caspace." />
+		</statement>
+	</unit>
+
+	<!-- Team Virus -->
+	<unit name="Virion" voice="Vicki">
+		<statement type="Selection">
+			<say value="Veereon." />
+			<say value="We are a cloud of virions." />
+			<say value="An inefficient virus kills its host. A clever virus stays with it." />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Brownean motion commencing." />
+			<say value="You must learn control." />
+		</statement>
+	</unit>
+	<unit name="VirionDead" voice="Vicki">
+		<statement type="Selection">
+			<say value="Antibodies have weighed us down." />
+			<say value="We can't move." />
+			<say value="Antibodies blocked our G proteins." />
+		</statement>
+	</unit>
+	<unit name="Genome" voice="Vicki">
+		<statement type="Selection">
+			<say value="Genome ready." />
+			<say value="How may we serve?" />
+			<say value="Also known as single stranded viral RNA." />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Transcribing as we move." />
+			<say value="From us to Veereons, the cycle continues." />
+		</statement>
+		<statement type="Production">
+			<say value="Not enough space." />
+		</statement>
+	</unit>
+	<unit name="Antigenome" voice="Vicki">
+		<statement type="Selection">
+			<say value="Antigenome." />
+			<say value="We are the genomes mirror." />
+			<say value="Why can I only make genomes? Wait that's my job." />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Do you think we've gone round the bend?" />
+			<say value="We don't need roads where we are going." />
+		</statement>
+	</unit>
+	<unit name="mRNA-G" voice="Cellos">
+		<statement type="Selection">
+			<say value="G MRNA." />
+			<say value="We come from the genome" />
+			<say value="We will become a G protein one day!" />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Drifting." />
+			<say value="Dispersing." />
+		</statement>
+	</unit>
+	<unit name="mRNA-LP" voice="Kathy">
+		<statement type="Selection">
+			<say value="L and P MRNA." />
+			<say value="Messenger RNA on the move!" />
+			<say value="We will become a G protein one day!" />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Drifting." />
+			<say value="Dispersing." />
+		</statement>
+	</unit>
+	<unit name="mRNA-M" voice="Victoria">
+		<statement type="Selection">
+			<say value="M MRNA." />
+			<say value="M is for mighty." />
+			<say value="Wheres the ribosome? we need to be translated" />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Drifting." />
+			<say value="Dispersing." />
+		</statement>
+	</unit>
+	<unit name="mMRNA-N" voice="Victoria">
+		<statement type="Selection">
+			<say value="N MRNA." />
+			<say value="We need to be translated." />
+			<say value="We will protect the genome once we are translated" />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Drifting." />
+			<say value="Dispersing." />
+		</statement>
+	</unit>
+	<unit name="Protein-G" voice="Cellos">
+		<statement type="Selection">
+			<say value="G protein." />
+			<say value="We are the ones that dock with receptors." />
+			<say value="Allowing virions to invade cells since evolution and mutation created us" />
+		</statement>
+		<statement type="Pathing">
+			<say value="Starting pedesis." />
+			<say value="Pedesis means leaping." />
+			<say value="Brownean motion does not need gigawatts." />
+		</statement>
+	</unit>
+	<unit name="Proteins-LP" voice="Kathy">
+		<statement type="Selection">
+			<say value="L and P proteins." />
+			<say value="We are the polimerase." />
+			<say value="We don't print, we transcribe." />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Drifting." />
+			<say value="Dispersing." />
+		</statement>
+	</unit>
+	<unit name="Protein-M" voice="Princess">
+		<statement type="Selection">
+			<say value="M Protein." />
+			<say value="We can slow the Ribosomes." />
+			<say value="Let's clog up some Nuclear Pores." />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Drifting." />
+			<say value="Dispersing." />
+		</statement>
+	</unit>
+	<unit name="Protein-N" voice="Victoria">
+		<statement type="Selection">
+			<say value="N Protein." />
+			<say value="We protect the genomes" />
+			<say value="We have nightmares of being expressed on the outside of a cell" />
+		</statement>
+		<statement type="Pathing">
+			<say value="Diffusing." />
+			<say value="Drifting." />
+			<say value="Dispersing." />
+		</statement>
+	</unit>
+	<unit name="Vesicle" voice="Victoria">
+	    <statement type="Selection">
+		<say value="Vesicle." />
+		<say value="Filled with G proteins." />
+		<say value="Where oh where is the budding site?" />
+	    </statement>
+	</unit>
+	<unit name="Narrator"  voice="Vicki">
+		<statement type="Level0">
+			<say value="You, eye, Us, Together We are the Raven virus.  Tap on Us to display more information." />
+			<say value="Drag our Veereon to start the infection." /> 
+		</statement>
+		<statement type="Level1">
+			<say value="We can select our Budding Site by tapping on it."  />
+			<say value="[[inpt PHON]] fOWrm [[inpt TEXT]] one of us by tapping on the Veereon button." />
+			<say value="We must find a new cell to infect to survive." />  
+			<say value="Beware B-cells and their Bound Antibodies. They will destroy our Veereons." />
+			<say value="We search with as many of us as we can, we are more effective in larger numbers." />
+		</statement>
+		<statement type="Level2">
+			<say value="Beware B-Cells and their Bound Antibodies." />
+			<say value="We alerted the B-Cells.  They will now produce Free Antibodies to disable our Veereons." />
+			<say value="Distract the Free Antibodies while we move our Genome into the Budding Site to enable it." /> 
+			<say value="The Budding Site is now able to produce more of our Veereons." /> 
+			<say value="The cells are moving as the host moves.  We search to the right to spread our infection." /> 
+		</statement>
+		<statement type="Level3">
+			<say value="Cells are shifting, we are trapped until they move again." /> 
+			<say value="The B-Cells are still reacting to our infection.  Evade the incoming Free Antibodies." /> 
+			<say value="One Free Antibody will slow us down, two will disable us." /> 
+			<say value="The cells are moving again.  Continue our search for a cell to infect." />
+			<say value="Our success is rewarded.  Release us from the revealed Budding Site." />
+		</statement>
+		<statement type="Level4">
+			<say value="We have found a cell to infect on the right." />
+			<say value="We have alerted the B-Cells. Cells are moving, we can use the open space to avoid Free Antibodies" />
+			<say value="Match our Genome to the correct Protein Receptor.  Matching color is our key." />
+			<say value="We have infected the Cell.  Infect the cell with more of us." />
+			<say value="We move our Genomes to the right to spread our infection." />
+		</statement>
+		<statement type="Level5">
+			<say value="We can begin replicating to spread Our infection." />
+			<say value="We initiate replication by colliding our LP Proteins with Our Genomes." /> 
+			<say value="We need energy to start replication.  We can steal energy from the Mitochondrion." />
+			<say value="Select one of Our Genomes by tapping on it." />
+			<say value="Press the N mRNA button to create one of our Messenger RNA's." />
+			<say value="Slicer Enzymes can destroy our Genomes and mRNA.  Overpower the Slicer Enzyme with mRNA. " />
+			<say value="We move our Genomes to the right to search for more cell resources for replication. " />
+		</statement>
+		<statement type="Level6">
+			<say value="Select one of our Genomes." />
+			<say value="Press the N mRNA button to make one of our Messenger RNAs." />  
+			<say value="The cell is sending a wave of Slicer Enzymes to destroy us.  Protect us with an army of mRNA!" />
+			<say value="More of us arrived.  We build an army of mRNA while the cell is making more Slicers." />
+			<say value="Fight off the last wave of Slicers." />
+			<say value="We have found additional cell resources below us, move us downward to continue replication." />
+		</statement>
+		<statement type="Level7">
+			<say value="More Slicers are on the way, make more of our mRNA for protection." />
+			<say value="Send one of our mRNA to the Ribosome to be translated into one of our proteins." />
+			<say value="We can coat Our Genomes with our N Proteins by colliding Us together." />
+			<say value="Slicers cannot damage our Genomes when they have N Protein coats. Destroy the remaining Slicers." />
+			<say value="We move deeper into the cell to continue Our infection." />
+			<say value="Coat all of our Genomes with our N Proteins before we continue deeper into the cell." />
+		</statement>
+		<statement type="Level8">
+			<say value="As we spread, we expand our production.  Make a new type of mRNA at our Genomes." />
+			<say value="Make M mRNA and translate it into an M Protein at the Ribosome." />
+			<say value="Proteasomes can destroy our Proteins and our Genome's Protein coat. Overpower it with our Proteins." />
+			<say value="The cell also uses Ribosomes for translation. Fight off the Proteasomes and Slicers to survive." />
+			<say value="We can slow translation at the other Ribosome by attacking it with our M Proteins." />
+			<say value="We've slowed the Ribosome. Build an army of our Proteins and mRNA to fight off the cell defenses." />
+			<say value="The cell is using another Ribosome. Slow it's translation with our M Proteins." />
+			<say value="We have slowed the remaining Ribosome, destroy the remaining Slicers and Proteasomes." />
+			<say value="We move to the right to find their origin and disrupt the cell's defenses." />
+		</statement>
+		<statement type="Level9">
+			<say value="Our proteins left our collective to find the Nucleus. We can disrupt the cell's production." /> 
+			<say value="They don't know we are here so avoid Proteasomes and PRRs. Slow a Ribosome with our M Proteins." /> 
+			<say value="Clog Nuclear Pores with our M Proteins to cut off the flow of Cell mRNA." /> 
+			<say value="PRRs escalate the battle by alerting the DNA. Our M Proteins can group up on the PRRs to stop them." /> 
+			<say value="We block the remaining Nuclear Pores to prevent Cell mRNA from leaving the Nucleus." /> 
+			<say value="We have disrupted the cell's production. We move down to rejoin our collective." /> 
+		</statement>
+		<statement type="Level10">
+			<say value="They don't know we've made it this far." /> 
+			<say value="We have been busy making Antigenomes. Use LP Proteins to enable transcription at our Antigenomes." /> 
+			<say value="Translate our mRNA at the Ribosome to create more of our proteins." /> 
+			<say value=" ah " /> 
+			<say value="Combine our proteins with our Antigenome." />  
+			<say value="Our Antigenome can speed our infection by making more of our Genomes. Make more of our Genomes." />  
+			<say value="They've found us, protect our Antigenome by sacrificing our Genomes!" /> 
+			<say value="We are safe for now, move to the right to continue our infection." />  
+		</statement>
+		<statement type="Level11">
+			<say value="Block the remaining Nuclear Pores to halt the cell's retaliation." /> 
+			<say value="The PRR is taking our M Protein to the DNA. Clog the Nuclear Pores to stop the PRRs from reaching the DNA." /> 
+			<say value="The DNA has been alerted to our presence." />  
+			<say value="The cell made an Executioner Enzyme. Block the Nuclear Pores so we can quickly leave this area." />  
+			<say value="The Executioner has been activated. Clog the Nuclear Pores before it destroys the Cytoskeleton!" />  
+			<say value="We have further slowed the cell's retaliation.  Our fight continues to the right." />  
+			<say value="The Executioner can destroy the cell's Cytoskeleton, the first step for the cell to kill itself." />  
+		</statement>
+		<statement type="Level12">
+			<say value="We need G mRNA to make G Proteins.  Make G mRNA at our Genomes." /> 
+			<say value="We can have our G mRNA translated into a G Protein at the Ribosome." /> 
+			<say value="Sending our G Proteins to the Golgi is an important part of making more of our Virions." />  
+			<say value="We need to get 4 of our G Proteins to the Golgi to make a Vesicle." />  
+			<say value="We move our Vesicle to the right in search of a Budding Site, move 4 Vesicles to the right." />  
+			<say value="The Executioner has arrived. We need to move 4 Vesicles to the right." />  
+			<say value="When the Cytoskeleton is destroyed, nearby resources will no longer work. " /> 
+			<say value="Move 4 of our Vesicles to the right before the Executioner destroys all of the Cytoskeleton!" />  
+			<say value="We move our Genomes to the right to spread our infection." />  
+		</statement>
+		<statement type="Level13">
+			<say value="We are surrounded." /> 
+			<say value="We must continue to spread.  Move our Genome and our M Proteins into the Budding Site." />  
+			<say value="Our Vesicle is the only remaining piece needed to escape with one of our Virions." /> 
+			<say value="Our Budding Site is complete. Select it and escape with one of our Virions." /> 
+			<say value="We can create more of our Proteins and Genomes using our remaining Genomes." />  
+			<say value="The cell's defenses have found us.  Defend us while trying to escape!" />  
+			<say value="Move our M Proteins, our Vesicle, and one of our Armored Genomes to our Budding Site." /> 
+			<say value="Escape with another one of our Virions from the Budding Site." />  
+			<say value="The Executioner has arrived, we use the Mitochondrion and Ribosome before they are disabled." /> 
+			<say value="The cell's resources have been disabled. Survive until we can find more resources to abuse." /> 
+			<say value="We have found additional resources.  Make more of our Virions before the Executioner returns." /> 
+			<say value="The Executioner will return in 120 seconds! Form more of our Virions at our Budding Site." /> 
+			<say value="We are running out of time. Escape with our Virions before the Executioner kills the cell!" /> 
+			<say value="It has returned. Get our Virions out before the Executioner kills the last of the Cytoskeleton!" />  
+		</statement>
+		<statement type="Level14">
+			<say value="We need to clog the Nuclear Pores to slow down the cell's defenses!" /> 
+			<say value="Make three of our Virions before the cell kills itself!" /> 
+		</statement>
+		<statement type="Challenges">
+			<say value="Distract the slicers so that we may infect the rest of the body." />
+			<say value="We are trapped, evade the free antibodies until the cells move!" />
+			<say value="We have survived, we move to freedom." />
+			<say value="Distract the Proteasomes with N Proteins so we can keep our Genome's protein coat." />
+			<say value="The Cell is aware of our presence. Draw the immune system away from the main swarm." />
+		</statement>
+	</unit>
+</units>
+

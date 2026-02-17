@@ -1,0 +1,51 @@
+Developers
+	Nathan "Liability" Patterson
+	Kevin "Maestro" Harris
+	Michael "Consort" Beall
+	Ted "Rage Quit" Lauterbach
+	David "Chops" Mann
+	Matthew "Tasty" Gaydos
+	
+Budding Site Sound Effect Source
+	Mike Koenig
+	
+Producers
+   Rich Halverson
+   Kurt Squire
+   Susan Millar 
+
+Technical Advisors
+   John Yin
+   Collin Timm
+   Jenny E. Gumperz, Ph.D.
+
+A* Pathfinding Library
+	Aron Granberg
+	
+Music in Distance Challenge (In a Dream Where I'm Sleeping)
+	Shatterfreak
+	
+Voice Actors
+	Alex						Bruce
+	Fred						Junior
+	Ralph					Agnes
+	Kathy					Princess
+	Vicki					Victoria
+	Albert					Bad News
+	Bahh					Trinoids
+	Zarvox
+
+Special Thanks
+	John & Tashia Morgridge
+	Morgridge Institute for Research
+	Wisconsin Alumni Research Foundation
+	Heinrich "The Farmer" Soebke
+	Javier "Control" Corredor
+	Moses "Dope Beatz" Wolfenstein
+	Adam  Mechtley
+	Sarah Chu
+	Raven
+	Madison West High School
+	All of our playtesters.
+
+Virulent copyright (c) 2011. All rights reserved.

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ArrayOfPreset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Preset>
+    <label>Almanac_Virion</label>
+    <id>Almanac_Virion</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Virion/D_Virion.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Virus</categoryToView>
+    <itemToView>Virion</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Monomer</label>
+    <id>Almanac_Monomer</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Immune System/D_Monomer.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Cell</categoryToView>
+    <itemToView>Bound Antibodies</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_BCell</label>
+    <id>Almanac_BCell</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Immune System/D_B Cell.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Cell</categoryToView>
+    <itemToView>B Cells</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Antibody</label>
+    <id>Almanac_Antibody</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Immune System/D_Pentamer.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Cell</categoryToView>
+    <itemToView>Free Antibodies</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Slicer</label>
+    <id>Almanac_Slicer</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Immune System/D_Slicer.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Cell</categoryToView>
+    <itemToView>Slicer Enzyme</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Genome</label>
+    <id>Almanac_Genome</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Virion/D_Genome.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Virus</categoryToView>
+    <itemToView>Genome</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_LP</label>
+    <id>Almanac_LP</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Virion/D_LP.psd</imagePath>
+    <isButton>false</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Virus</categoryToView>
+    <itemToView>LP Proteins</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_BuddingSite</label>
+    <id>Almanac_BuddingSite</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Virion/D_Budding Site.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Virus</categoryToView>
+    <itemToView>Budding Site</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Cell</label>
+    <id>Almanac_Cell</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Cell/D_Normal Cell.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Other</categoryToView>
+    <itemToView>Cell</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_N</label>
+    <id>Almanac_N</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Virion/D_N.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Virus</categoryToView>
+    <itemToView>N Protein</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_mRNAViral</label>
+    <id>Almanac_mRNAViral</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Virion/D_N mRNA.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Virus</categoryToView>
+    <itemToView>mRNA</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_ER</label>
+    <id>Almanac_ER</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Cell/D_ER.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Other</categoryToView>
+    <itemToView>Endoplasmic Reticulum</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Mitochondria</label>
+    <id>Almanac_Mitochondria</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Cell/D_Mitochondria.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Other</categoryToView>
+    <itemToView>Mitochondrion</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_PR</label>
+    <id>Almanac_PR</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Cell/D_Protein_Receptors.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Other</categoryToView>
+    <itemToView>Protein Receptor</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Invagination</label>
+    <id>Almanac_Invagination</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Cell/D_Invaginations.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Other</categoryToView>
+    <itemToView>Invagination</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_PRR</label>
+    <id>Almanac_PRR</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Immune System/D_PRR.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Cell</categoryToView>
+    <itemToView>PRR</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_NuclearPores</label>
+    <id>Almanac_NuclearPores</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Cell/D_NuclearPore.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>true</isOpen>
+    <categoryToView>Other</categoryToView>
+    <itemToView>Nuclear Pore</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Proteasome</label>
+    <id>Almanac_Proteasome</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Immune System/D_Proteasome.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Cell</categoryToView>
+    <itemToView>Proteasome</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_mRNACell</label>
+    <id>Almanac_mRNACell</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Immune System/D_CellmRNA.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Cell</categoryToView>
+    <itemToView>mRNA</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Nucleus</label>
+    <id>Almanac_Nucleus</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Cell/D_Nucleus.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Other</categoryToView>
+    <itemToView>Nucleus</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Golgi</label>
+    <id>Almanac_Golgi</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Cell/D_Golgi.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Other</categoryToView>
+    <itemToView>Golgi Apparatus</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Executioner</label>
+    <id>Almanac_Executioner</id>
+    <imagePath>Assets/Artwork/Textures/Almanac/Images/Team Immune System/D_Caspase.psd</imagePath>
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Cell</categoryToView>
+    <itemToView>Caspase</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Vesicle</label>
+    <id>Almanac_Vesicle</id>
+    <imagePath />
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Virus</categoryToView>
+    <itemToView>Vesicle</itemToView>
+  </Preset>
+  <Preset>
+    <label>Almanac_Antigenome</label>
+    <id>Almanac_Antigenome</id>
+    <imagePath />
+    <isButton>true</isButton>
+    <buttonAction>OpenAlmanac</buttonAction>
+    <timeToLive>0</timeToLive>
+    <isOpen>false</isOpen>
+    <categoryToView>Virus</categoryToView>
+    <itemToView>Antigenome</itemToView>
+  </Preset>
+</ArrayOfPreset>
